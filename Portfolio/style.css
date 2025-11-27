@@ -1,0 +1,20 @@
+.intro {
+    background-color: #727c42;
+}
+
+.titulo {
+    font-family: 'titulo', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #ffeed5;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url('fonts/Benguiat Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'corpo';
+    src: url('fonts/open-sauce.sans-black.ttf') format ('truetype');
+}
