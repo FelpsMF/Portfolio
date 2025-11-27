@@ -5,23 +5,31 @@
 
 @font-face {
     font-family: 'corpo';
-    src: url('../fonts/open-sauce.sans-black.ttf');
+    src: url('../fonts/open-sauce.one-regular.ttf');
 }
 
 .intro {
     background-color: #727c42;
+    width: auto;
+    height: 1080px;
 }
 
-.titulo {
+.intro .titulo {
     font-family: 'titulo';
     color: #ffeed5;
     font-size: 70px;
     text-align: center;
 }
 
-p {
+.intro p {
     font-family: 'corpo';
     font-size: 25px;
     color: #ffeed5;
     text-align: center;
+}
+
+.corpo {
+    background-color: #fde5c1;
+    width: auto;
+    height: 1080px;
 }
