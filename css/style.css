@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'titulo'; 
+    src: url('../fonts/Benguiat Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'corpo';
+    src: url('../fonts/open-sauce.sans-black.ttf');
+}
+
 .intro {
     background-color: #727c42;
+}
+
+.titulo {
+    font-family: 'titulo';
+    color: #ffeed5;
+    font-size: 70px;
+    text-align: center;
+}
+
+p {
+    font-family: 'corpo';
+    font-size: 25px;
+    color: #ffeed5;
+    text-align: center;
 }
