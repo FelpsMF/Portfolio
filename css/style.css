@@ -8,28 +8,43 @@
     src: url('../fonts/open-sauce.one-regular.ttf');
 }
 
-.intro {
-    background-color: #727c42;
-    width: auto;
-    height: 1080px;
+html, body {
+    height: 100%;
 }
 
-.intro .titulo {
+.introCenter {
+    background-color: #727c42;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introCenter .titulo {
     font-family: 'titulo';
     color: #ffeed5;
     font-size: 70px;
     text-align: center;
+   
 }
 
-.intro p {
+.introCenter p {
     font-family: 'corpo';
     font-size: 25px;
     color: #ffeed5;
     text-align: center;
 }
 
+.final {
+    background-color: #727c42;
+    width: auto;
+    height: 100vh;
+}
+
 .corpo {
     background-color: #fde5c1;
     width: auto;
-    height: 1080px;
+    height: 100vh;
 }
