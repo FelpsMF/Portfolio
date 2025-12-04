@@ -9,7 +9,8 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100vh;
+    margin: 0;
 }
 
 .introCenter {
@@ -47,4 +48,13 @@ html, body {
     background-color: #fde5c1;
     width: auto;
     height: 100vh;
+}
+
+.corpo .tituloSeg {
+    font-family: 'titulo';
+    color: #727c42;
+    font-size: 37px;
+    margin: 0; 
+    transform: translateY(120px);
+    margin-left: 50px;
 }
