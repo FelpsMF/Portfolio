@@ -56,5 +56,31 @@ html, body {
     font-size: 37px;
     margin: 0; 
     transform: translateY(120px);
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    transform: translateY(120px);
     margin-left: 50px;
+    font-size: 16px;
+    font-family: 'corpo';
+}
+
+.corpo .verde {
+    background-color: #727c42;
+    height: 2px;
+    width: 50%;
+    border: none;
+    transform: translateY(120px);
+    margin-left: 50px;
+    margin: 20px 0;
+}
+
+.corpo .MyPhoto {
+    transform: translateY(120px);
+    margin-right: 50px;
+    width: 1080px;
+    height: 1440px;
 }
