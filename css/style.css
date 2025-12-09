@@ -27,15 +27,12 @@ html, body {
     font-family: 'titulo';
     color: #ffeed5;
     font-size: 70px;
-    text-align: center;
-   
 }
 
 .introCenter p {
     font-family: 'corpo';
     font-size: 25px;
     color: #ffeed5;
-    text-align: center;
 }
 
 .final {
@@ -61,7 +58,7 @@ html, body {
     flex-direction: column;
 }
 
-p {
+.corpo .descricao {
     transform: translateY(120px);
     margin-left: 50px;
     font-size: 16px;
