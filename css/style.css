@@ -79,8 +79,10 @@ p {
 }
 
 .corpo .MyPhoto {
-    transform: translateY(120px);
+    height: 65%;
+    width: auto;
+    position: absolute;
+    right: 0;
+    margin-top: -40px;
     margin-right: 50px;
-    width: 1080px;
-    height: 1440px;
 }
