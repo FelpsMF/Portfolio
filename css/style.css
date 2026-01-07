@@ -45,6 +45,14 @@ html, body {
     background-color: #fde5c1;
     width: auto;
     height: 100vh;
+    box-shadow: inset 0px 10px 10px -10px rgba(0,0,0,0.1), 
+                inset 0px -10px 10px -10px rgba(0,0,0,0.1);
+}
+
+.corpoProjeto {
+    background-color: #fde5c1;
+    width: auto;
+    height: 100vh;
 }
 
 .corpo .tituloSeg {
@@ -83,4 +91,71 @@ html, body {
     margin-top: -40px;
     margin-right: 200px;
     border: 0px solid #727c42;padding: 20px; box-shadow: 0 0 0 1px #727c42 inset;
+}
+
+
+.corpoProjeto .tituloTer {
+    font-family: 'titulo';
+    color: #727c42;
+    font-size: 57px;
+    margin: 0; 
+    transform: translateY(120px);
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.corpoProjeto .verde {
+    background-color: #727c42;
+    height: 2px;
+    width: 50%;
+    border: none;
+    transform: translateY(88px);
+    margin-right: 0;
+}
+
+.corpoProjeto .containerCard {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(250px);
+    margin-left: 300px;
+    gap: 100px;
+}
+
+.card {
+  font-family: 'corpo';
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #ffeed5;
+  background-color: #727c42;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
