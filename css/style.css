@@ -53,14 +53,14 @@ html, body {
     font-size: 37px;
     margin: 0; 
     transform: translateY(120px);
-    margin-left: 160px;
+    margin-left: 400px;
     display: flex;
     flex-direction: column;
 }
 
 .corpo .descricao {
     transform: translateY(120px);
-    margin-left: 50px;
+    margin-left: 180px;
     font-size: 16px;
     font-family: 'corpo';
 }
@@ -81,6 +81,6 @@ html, body {
     position: absolute;
     right: 0;
     margin-top: -40px;
-    margin-right: 50px;
+    margin-right: 200px;
     border: 0px solid #727c42;padding: 20px; box-shadow: 0 0 0 1px #727c42 inset;
 }
