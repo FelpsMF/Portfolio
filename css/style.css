@@ -88,7 +88,7 @@ html, body {
     width: auto;
     position: absolute;
     right: 0;
-    margin-top: -40px;
+    margin-top: -75px;
     margin-right: 200px;
     border: 0px solid #727c42;padding: 20px; box-shadow: 0 0 0 1px #727c42 inset;
 }
@@ -157,4 +157,64 @@ a {
 
 button:hover, a:hover {
   opacity: 0.7;
+}
+
+.final .tituloFinal {
+    font-family: 'titulo';
+    color: #fde5c1;
+    font-size: 66px;
+    margin: 0; 
+    transform: translateY(300px);
+    margin-left: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.final p {
+    font-family: 'corpo';
+    color: #fde5c1;
+    font-size: 44px;
+    margin: 0; 
+    transform: translateY(300px);
+    margin-left: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.final .contatos {
+   max-width: 400px;
+   min-height: 100px;
+   transform: translateY(300px);
+   background-color: #fde5c1;
+   padding: 25px;
+   box-sizing: border-box; 
+   margin: 20px 0;
+   margin-left: 1300px;
+   border-radius: 10px;
+}
+
+.contatos img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.final .bege {
+    background-color: #fde5c1;
+    height: 2px;
+    width: 100%;
+    border: none;
+    transform: translateY(450px);
+    margin: 0;
+}
+
+.final .chamativo {
+    font-family: 'titulo';
+    color: #fde5c1;
+    font-size: 66px;
+    margin: 0; 
+    transform: translateY(200px);
+    margin-left: 200px;
 }
